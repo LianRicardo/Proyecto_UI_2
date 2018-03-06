@@ -1,4 +1,6 @@
-﻿namespace Proyecto_UI_2
+﻿using System;
+
+namespace Proyecto_UI_2
 {
     partial class Form2
     {
@@ -28,11 +30,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // Form2
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(484, 461);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Form2";
             this.Text = "Form2";
-        }
+            this.Load += new System.EventHandler(this.Form2_Load);
+            this.ResumeLayout(false);
 
+        }
         #endregion
     }
 }
